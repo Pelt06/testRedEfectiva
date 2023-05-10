@@ -1,0 +1,28 @@
+
+body {
+  background-color: #000000cc;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 50px;
+}
+.title-text{
+  font-family: Piersans;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+.content-menu {
+  margin-bottom: 20px;
+}
+
+.inputText{
+    min-width: 80% !important;
+    min-height: 25px;
+}
