@@ -1,7 +1,15 @@
-<<<<<<< HEAD
-# testRedEfectiva
-Repositorio para proyecto prueba 
-=======
+# Correr el proyecto con node
+npm install --legacy-peer-deps
+npm start
+
+# Correr el proyecto con docker image
+docker build -t pelt0611/test .
+docker run -d -p 3000:3000 pelt0611/test
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,4 +80,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> dev
